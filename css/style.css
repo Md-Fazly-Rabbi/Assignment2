@@ -1,0 +1,298 @@
+/* Common css start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+a{
+    text-decoration:none;
+}
+li{
+    list-style: none;
+}
+/* Common css end  */
+/* Header part start  */
+#navbar{
+    background-color:#FF900E1A;
+
+}
+.nav_items{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 50px;
+
+}
+.logo{
+    font-family: Work Sans;
+font-size: 45px;
+font-weight: 700;
+
+}
+.links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.items{
+    padding: 20px;
+font-size: 18px;
+font-weight: 500;
+
+}
+.nav_discription{
+    text-align: center;
+}
+.nav_title{
+    color: #131313;
+    font-size: 64px;
+    margin-top: 100px;
+    font-weight: 700;
+    padding-left: 30px;
+
+}
+.nav_peragraph{
+    color: #727272;
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 400;
+   margin-left: 30px;
+   padding-left: 30px;
+}
+.btn_primary{
+    background-color: #FF900E;
+   color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600; 
+    margin-top: 30px;
+    border-radius: 8px;
+    padding: 20px 25px;
+    border: none;
+}
+.items:hover{
+color: #FF900E;
+}
+.btn_primary:hover{
+    color: #FF900E;
+    background-color: #FFFFFF;
+}
+.nav_banner img{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+/* Header part end  */
+/* main part start  */
+/* Quick list of Our Features section start  */
+.Quick_list{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+}
+.Quick_list div {
+   flex: 1;
+}
+.Quick_items{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 24px;
+}
+.Quick_items .images{
+    gap: 10px;
+}
+.Quick_title{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 700;
+}
+.style1{
+color: #131313;
+}
+.style2{
+    color: #FF900E;
+}
+.Quick_discription{
+font-size: 16px;
+font-weight: 400;
+color: #727272;
+margin-top: 24px;
+
+}
+/* Quick list of Our Features section end  */
+/* <!-- Features you will love & enjoy section start   --> */
+.Features_part{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    gap:100px;
+}
+.Features_part div {
+    flex:1;
+}
+.features_title{
+  color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding:32px;
+   
+    
+}
+.features_discription{
+   color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    
+}
+.Features_title{
+color: #131313;
+margin-top:10px;
+font-size: 20px;
+font-weight: 600;
+padding: 20px 25px;
+}
+.Features_discription{
+color: #727272;
+font-size: 16px;
+font-weight: 400;
+padding-left: 30px;
+
+}
+/* .Features_img img{
+    width: 100%;
+} */
+.Features_img{
+    position: relative;
+}
+.extra{
+    height: 110px;
+    width: 260px;
+    padding:10px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    position: absolute;
+    left: 0;
+    bottom: 45px;
+    transform: translate(-35%)
+}
+.extra h2{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 700;  
+    text-align: center;
+}
+.extra p{
+    color: #FFFFFF;
+    font-size:25px;
+    font-weight: 500;
+padding-top: 10px;
+    text-align: center; 
+}
+/* <!-- Features you will love & enjoy section end  --> */
+/* <!-- Some Facts part start  --> */
+.Some_facts{
+    margin-top:100px;
+}
+.title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700; 
+}
+.title_discription{
+color:#131313;
+margin-top: 24px;
+font-size: 16px;
+font-weight: 400;
+text-align:left;
+}
+.main{
+    margin-top: 100px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 100px;
+
+}
+.icons_images img{
+margin-left: 75px;
+padding-top:45px;
+}
+.icones{
+    border: 2px solid #FF900E;
+}
+.icon_title{
+    color: #424242;
+font-size: 45px;
+font-weight: 600;
+text-align: center;
+padding-top: 10px;
+}
+.icon_title1{
+    color: #424242; 
+font-size: 20px;
+font-weight: 600;
+text-align: center;
+padding-top: 10px;
+
+}
+.icon_description{
+color: #727272;
+font-size: 20px;
+font-weight: 600;
+padding-bottom: 20px;
+text-align: center;
+padding-top: 10px;
+}
+/* <!-- Some Facts part end  --> */
+/* <!-- Some Facts part  -->start */
+.sponsor{
+    margin-top: 150px;
+font-size: 45px;
+font-weight: 700;
+color: #131313;
+text-align: center;
+}
+.sponsor_description{
+    color: #727272;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-top: 24px;
+}
+.sponsor_images{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:repeat( 5, 1fr);
+    gap: 50px;
+}
+/* <!-- Our Sponspors section end --> */
+/* main part end  */
+.media{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:repeat( 4, 1fr);
+    gap: 50px;}
+.media img{
+    width: 50%;
+}
+/* <!-- footer part start  --> */
+.footer_part{
+ background-color: #FFF4E7;
+ border-radius: 8px;
+ margin-top: 130px;
+} .footer_part h2{
+font-size: 20px;
+font-weight: 400;
+text-align: center;
+padding: 40px 0px;
+
+}
+/* <!-- footer part end  --> */

@@ -1,0 +1,97 @@
+
+@media screen and (max-width: 576px) {
+    .nav_items{
+        flex-direction: column;
+            } 
+            .container{
+                width: 576px;
+            }
+            .logo {
+                font-size: 32px;
+            }
+            .nav_title {
+                margin-top: 20px;
+                font-size: 20px;
+                margin-top: 70px;
+                padding-left: 25px;
+            }
+            .nav_peragraph {
+                margin-top: 16px;
+                font-size: 5px;
+                
+            }
+            .btn_primary {
+                font-size: 16px;
+                margin-top: 20px;
+               
+            }
+            .nav_banner img {
+                margin-top: 35px;
+                width: 39%;
+                margin-left: 190px;
+            }
+            .Quick_list {
+                flex-direction: column;
+            }
+            .Quick_items {
+                grid-template-columns: repeat(1 ,1fr);
+            }
+            .Quick_title {
+                font-size: 26px;
+                margin-left: 30px;
+                text-align: center;
+            }
+            .Quick_discription {
+               
+                font-size: 13px;
+               
+                
+                margin-top: 24px;
+                text-align: center;
+            }
+            .features_title {
+             
+                font-size: 20px;
+               
+            }
+            .features_discription {
+                margin-left: 20px;
+                
+                font-size: 12px;
+               
+            }
+            .Features_part {
+                flex-direction: column;
+            }
+            .Features_img img{
+                width: 75%;
+            }
+            .main {
+            
+                grid-template-columns: repeat(1, 1fr);
+               
+            }
+            .title_discription {
+              
+               
+                font-size: 13px;
+               
+                text-align: center;
+            }
+            .title {
+               
+                font-size: 35px;
+                
+                text-align: center;
+            }
+            .sponsor_images {
+               
+                grid-template-columns: repeat(1, 1fr);
+                
+            }
+            .media {
+                
+                grid-template-columns: repeat( 1, 1fr);
+               
+            }
+}
