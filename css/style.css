@@ -228,6 +228,10 @@ padding-top:45px;
 .icones{
     border: 2px solid #FF900E;
 }
+.icones:hover{
+    background-color: #2cbccc;
+   
+}
 .icon_title{
     color: #424242;
 font-size: 45px;
@@ -237,6 +241,7 @@ padding-top: 10px;
 }
 .icon_title1{
     color: #424242; 
+  
 font-size: 20px;
 font-weight: 600;
 text-align: center;
