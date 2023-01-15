@@ -274,7 +274,7 @@ margin-top: 24px;
     gap: 50px;
 }
 /* <!-- Our Sponspors section end --> */
-/* main part end  */
+
 .media{
     margin-top: 50px;
     display: grid;
@@ -283,6 +283,7 @@ margin-top: 24px;
 .media img{
     width: 50%;
 }
+/* main part end  */
 /* <!-- footer part start  --> */
 .footer_part{
  background-color: #FFF4E7;
@@ -293,6 +294,5 @@ font-size: 20px;
 font-weight: 400;
 text-align: center;
 padding: 40px 0px;
-
 }
 /* <!-- footer part end  --> */
